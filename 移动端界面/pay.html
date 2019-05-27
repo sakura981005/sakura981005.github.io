@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="reset.css" />
+		<title></title>
+		<style type="text/css">
+			body {
+				width: 88%;
+				margin-left: 6%;
+			}
+
+			.box {
+				position: relative;
+			}
+
+			.box img:first-child {
+				width: 34%;
+				margin-left: 33%;
+				margin-top: 4rem;
+			}
+
+			.box img:last-child {
+				opacity: 0.6;
+				width: 24%;
+				margin-left: 38%;
+				position: absolute;
+				top: 6.5rem;
+			}
+
+			.box p {
+				text-align: center;
+				margin-top: 1.5rem;
+				font-size: 1.7rem;
+				margin-bottom: 4rem;
+			}
+
+			ol li {
+				margin: 2rem;
+				font-size: 1.4rem
+			}
+
+			.left {
+				float: left;
+			}
+
+			.right {
+				float: right;
+				text-align: right;
+			}
+
+			.message p {
+				color: #576b95;
+				font-size: 1.5rem;
+				margin-bottom: 0.5rem;
+			}
+
+			.message textarea {
+				border: none;
+				line-height: 2rem;
+				background: #f8f8f8;
+				font-size: 1.6rem
+			}
+
+			.send a {
+				margin-top: 3rem;
+				position: absolute;
+				width: 88%;
+				border-radius: 5px;
+				background: #69be49;
+				height: 5rem;
+				text-align: center;
+				line-height: 5rem;
+				font-size: 2rem
+			}
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<p>购买礼盒</p>
+		</div>
+		<div class="box">
+			<img src="img/box.png">
+			<p>年会系列礼盒</p>
+			<img src="img/hover.png">
+		</div>
+		<div class="list clearfix">
+			<ol class="left">
+				<li>礼盒价格</li>
+				<li>盒内礼物</li>
+				<li>礼品总价值</li>
+			</ol>
+			<ol class="right">
+				<li>198元</li>
+				<li>52件</li>
+				<li>3000-5000元</li>
+			</ol>
+		</div>
+		<hr />
+		<div class="message">
+			<p>你的赠言</p>
+			<textarea rows="8" cols="40" placeholder="美女，一起吃个早饭~"></textarea>
+		</div>
+		<div class="send">
+			<a href="sended.html">
+				<p>赠送</p>
+			</a>
+		</div>
+	</body>
+</html>
